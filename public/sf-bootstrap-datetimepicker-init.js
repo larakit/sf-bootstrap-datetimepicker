@@ -1,6 +1,7 @@
 initDatapicker = function () {
+    console.log('init');
     var $this = $(this),
-        attrs = $this.get(0).attributes,
+        attrs = $this.attrs(),
         defaults = {
             locale: 'ru'
         },
