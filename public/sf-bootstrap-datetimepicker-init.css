@@ -1,0 +1,8 @@
+.bootstrap-datetimepicker-widget {
+    z-index : 100500;
+}
+
+.form-group,.input-group {
+    position : relative;
+    z-index  : auto !important;
+}
