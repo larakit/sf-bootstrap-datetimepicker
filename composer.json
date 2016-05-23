@@ -9,7 +9,8 @@
         }
     ],    
     "require": {
-        "larakit/sf-bootstrap": "*"
+        "larakit/sf-bootstrap": "*",
+        "larakit/sf-jquery-attrs": "*"
     },
     "autoload": {
         "files": [

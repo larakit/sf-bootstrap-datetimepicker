@@ -1,6 +1,6 @@
 initDatapicker = function () {
     var $this = $(this),
-        attrs = $this.attrs(),
+        attrs = $this.get(0).attributes,
         defaults = {
             locale: 'ru'
         },
@@ -18,5 +18,5 @@ initDatapicker = function () {
     $this.datetimepicker(options);
 };
 
-LarakitJs.initSelector('.js-element-tb-datepicker', initDatapicker);
+LarakitJs.initSelector('.js-datepicker-twbs', initDatapicker);
 
