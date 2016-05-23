@@ -1,0 +1,19 @@
+{
+    "name": "larakit/sf-bootstrap-datetimepicker",
+    "description": "[Larakit][lk-staticfiles] bootstrap-datetimepicker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Berdnikov",
+            "email": "aberdnikov@gmail.com"
+        }
+    ],    
+    "require": {
+        "larakit/sf-bootstrap": "*"
+    },
+    "autoload": {
+        "files": [
+            "init.php"
+        ]
+    }
+}
