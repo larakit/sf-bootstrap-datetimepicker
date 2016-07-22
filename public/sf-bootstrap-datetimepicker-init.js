@@ -1,5 +1,4 @@
 initDatapicker = function () {
-    console.log('init');
     var $this = $(this),
         attrs = $this.attrs(),
         defaults = {
@@ -13,6 +12,7 @@ initDatapicker = function () {
         }
     }
     var options = $.extend({}, defaults, config);
+    console.log(options);
     $this.parent()
         .css('position', 'relative')
         .css('z-index', '1005');
